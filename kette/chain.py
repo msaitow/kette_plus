@@ -1,7 +1,7 @@
 import warnings
 import copy
 import inspect
-from collections import Callable, Iterable, Mapping
+from collections.abc import Callable, Iterable, Mapping
 
 def identity_map(x):
     return x
